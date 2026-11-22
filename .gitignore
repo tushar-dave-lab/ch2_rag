@@ -1,0 +1,30 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# Vector databases (ChromaDB)
+chroma_db_minilm/
+chroma_db_openai/
+chroma_db_*/
+
+# Personal Open Enrollment PDFs (keep folder structure via .gitkeep)
+oe_docs/*.pdf
+!oe_docs/.gitkeep
+
+# macOS & IDE files
+.DS_Store
+.vscode/
+.idea/
