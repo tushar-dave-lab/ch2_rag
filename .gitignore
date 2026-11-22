@@ -28,3 +28,8 @@ oe_docs/*.pdf
 .DS_Store
 .vscode/
 .idea/
+
+# React Frontend build & dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
